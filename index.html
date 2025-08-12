@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio — João Rafael</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar glass">
+      <img
+        src="imagens/foto joao.jpeg"
+        alt="Foto João Rafael"
+        class="profile-pic"
+      />
+      <h1>João Rafael</h1>
+      <p class="role">Desenvolvedor Front-end</p>
+
+      <section class="contact">
+        <h2>Contato</h2>
+        <p><i class="fas fa-envelope"></i> joaorafasoares01@gmail.com</p>
+        <p><i class="fas fa-phone"></i> (11) 94471-1646</p>
+        <p><i class="fas fa-map-marker-alt"></i> Várzea-Paulista, São Paulo</p>
+      </section>
+
+      <section class="skills">
+        <h2>Habilidades</h2>
+        <ul>
+           <li><i class="fab fa-html5"></i> HTML</li>
+           <li><i class="fab fa-css3-alt"></i> CSS</li>
+           <li><i class="fab fa-js"></i> JavaScript</li>
+           <li><i class="fab fa-react"></i> React</li>
+           <li><i class="fas fa-database"></i> MySql</li>
+           <li><i class="fab fa-git-alt"></i> Git</li>
+           <li><i class="fab fa-github"></i> GitHub</li>
+        </ul>
+      </section>
+    </aside>
+
+    <main class="content glass">
+      <section class="about">
+        <h2>Sobre Mim</h2>
+        <p>
+          Sou desenvolvedor web, formado em Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia e desenvolvimento de sites empresariais, transformando ideias em realidades, sempre buscando inovação e aprendizado contínuo das tecnologias.
+        </p>
+      </section>
+
+      <section class="projects">
+        <h2>Projetos</h2>
+
+        <article class="project">
+          <h3>Projeto 1</h3>
+          <p>Descrição do projeto e tecnologias usadas.</p>
+          <a href="https://linkdoprojeto1.com" target="_blank" rel="noopener noreferrer">Ver projeto</a>
+        </article>
+
+        <article class="project">
+          <h3>Projeto 2</h3>
+          <p>Descrição do projeto 2.</p>
+          <a href="https://linkdoprojeto2.com" target="_blank" rel="noopener noreferrer">Ver projeto</a>
+        </article>
+
+        
+      </section>
+
+      <section class="experience">
+        <h2>Experiência</h2>
+        <div class="job">
+          <h3>Freelancer - Desenvolvedor Front-end</h3>
+          <span>2025 - Atual</span>
+          <p>
+            Criação de sites empresariais(landing pages).
+          </p>
+        </div>
+        <div class="job">
+          <h3>Faturista -  Saifer Transportes LTDA</h3>
+          <span>2021 á 2023</span>
+          <p>Processos de faturamento, emissões de documentos(CTE, MDFE), controle planilhas faturamento.</p>
+
+        </div>
+
+      </section>
+
+      <section class="education">
+        <h2>Educação</h2>
+        <p>Formado em Análise e Desenvolvimento de Sistemas (Unianchieta).</p>
+        <span>2023 - 2025</span>
+      </section>
+
+      <section class="contact-form-section">
+        <h2>Contato</h2>
+        <form class="contact-form">
+          <input type="text" placeholder="Seu nome" required />
+          <input type="email" placeholder="Seu email" required />
+          <textarea placeholder="Mensagem" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+
+      <footer>
+        <p>© <span id="year"></span> João Rafael</p>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>

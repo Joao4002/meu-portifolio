@@ -21,7 +21,7 @@
 body{
     font-family: "Poppins", sans-serif;
     background: url(imagens/luca-bravo-XJXWbfSo2f0-unsplash.jpg) no-repeat center center fixed;
-    background-size: 100% auto;
+    background-size: cover;
     color:var(--text-light); 
     min-height: 100vh;
     display: flex;
@@ -268,6 +268,12 @@ footer {
 
 
 @media (max-width: 900px) {
+
+  body{
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  
   .container {
     flex-direction: column;
   }

@@ -272,7 +272,7 @@ footer {
   body{
     background-size: cover;
     background-attachment: scroll;
-    background-position: center top;
+    background-position: top top;
   }
   
   .container {

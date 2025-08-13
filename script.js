@@ -2,7 +2,7 @@
 
 // ===== 1. Efeito de Digitação no Cargo =====
 const roleElement = document.querySelector(".role");
-const text = "Desenvolvedor Front-end";
+const text = "Desenvolvedor Front-end / Web Developer";
 let index = 0;
 
 function typeEffect() {

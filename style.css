@@ -232,7 +232,7 @@ footer {
   margin-top: 30px;
 }
 
-/* Animação de entrada */
+
 .content section {
   opacity: 0;
   transform: translateY(40px);
@@ -243,7 +243,7 @@ footer {
   transform: translateY(0);
 }
 
-/* Botão voltar ao topo */
+
 .back-to-top {
   position: fixed;
   bottom: 30px;
@@ -263,6 +263,10 @@ footer {
 .back-to-top.show {
   opacity: 1;
   visibility: visible;
+}
+
+.education{
+  margin-bottom: 1.5rem;
 }
 
 

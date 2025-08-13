@@ -270,8 +270,9 @@ footer {
 @media (max-width: 900px) {
 
   body{
-    background-size: contain;
-    background-attachment: fixed;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center top;
   }
   
   .container {
